@@ -20,14 +20,10 @@ _global_script_class_icons={
 
 [application]
 
-config/name="GDQuest Platformer Character Controller (start)"
+config/name="2D_Platform_Game_Course"
 run/main_scene="res://src/Main/Game.tscn"
 config/icon="res://icon.png"
 
-[autoload]
+[rendering]
 
-Events="*res://src/Autoload/Events.gd"
-
-[debug]
-
-gdscript/warnings/enable=false
+environment/default_environment="res://default_env.tres"
