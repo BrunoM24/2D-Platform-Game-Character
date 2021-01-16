@@ -41,4 +41,4 @@ func exit() -> void:
 func calculate_jump_velocity(impulse := 0.0) -> Vector2:
 	var move := get_parent()
 	
-	return move.calculate_velocity(move.velocity, move.max_speed, Vector2(0, impulse), 1.0, Vector2.UP)
+	return move.calculate_velocity(move.velocity, move.max_speed, Vector2(0, impulse), Vector2.ZERO, 1.0, Vector2.UP)
